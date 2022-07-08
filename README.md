@@ -1,9 +1,9 @@
 # 9.014
 Assignments for 9.014 in Python
 
-# Setup 
+## Setup 
 
-## Creating and activating a conda environment
+### Creating and activating a conda environment
 ```
 conda env create —-name env_name python=3.9 matplotlib numpy scipy notebook
 ```
@@ -23,14 +23,14 @@ $ ipython kernel install --name 9.014 --user
 ```
 
 
-## Using jupyter notebook
+### Using jupyter notebook
 To start a notebook, use
 
 ```
 jupyter notebook
 ```
 
-Make sure you are in the directory containing the notebook file you want to modify (or containing a subdirectory with that file). When the notebook starts, make sure you select the kernel you created within the virtual environment. 
+You must be in the directory containing the notebook file you want to modify (or containing a subdirectory with that file). When the notebook starts, select the kernel you created within the virtual environment. 
 
 
 
